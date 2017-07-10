@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" 
+      layout:decorator="layout">
+<head>
+    <title>Content page</title>
+</head>
+
+<body>
+
+    <section layout:fragment="content">
+        <p>Content.............................................</p>
+    </section>
+    
+    <footer>
+        <p layout:fragment="non-exists-fragment">This 'non-exists-fragment' is not in layout.</p>
+    </footer>
+
+</body>
+</html>
